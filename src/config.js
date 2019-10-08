@@ -97,9 +97,9 @@ module.exports = Object.seal({
 // foodMaxSize: vanilla 20 (mass: 20*20/100: 4 mass)
 // foodAmount: The number of food to spawn
 // foodMassGrow: Enable food mass grow ?
-"foodMinSize": 10,
-"foodMaxSize": 20,
-"foodAmount": 700,
+"foodMinSize": 25,
+"foodMaxSize": 25,
+"foodAmount": 1500,
 "foodMassGrow": 1,
 
 // [VIRUSES]
@@ -152,11 +152,11 @@ module.exports = Object.seal({
 // playerDecayCap: Maximum mass a cell can have before it's decayrate multiplies by 10. (0 to disable)
 // playerDisconnectTime: Time in seconds before a disconnected player's cell is removed from the server (Set to -1 to never remove)
 // splitVelocity: Velocity of splitting playercells (speed and distance)
-"playerMinSize": 31.6227766017,
-"playerMaxSize": 1500,
+"playerMinSize": 50,
+"playerMaxSize": 3500,
 "playerMinSplitSize": 59.16079783,
 "playerMinEjectSize": 59.16079783,
-"playerStartSize": 31.6227766017,
+"playerStartSize": 50,
 "playerMaxCells": 16,
 "playerSpeed": 2,
 "playerDecayRate": 0.002,
